@@ -1,0 +1,36 @@
+a:link {
+    background-color: rgb(74, 252, 30);
+  }
+  
+    a:visited {
+    background-color: rgb(173, 230, 185);
+  }
+  
+ 
+  a:hover {
+    background-color: turquoise;
+  }
+  
+
+  a:active {
+    background-color: yellow;
+  }
+ 
+  h2::first-letter{
+    font-size: 500%;
+    color: blue;
+  }
+  .nome:focus {
+    color: violet
+  }
+  
+ 
+  h4:nth-child(2n+1) {
+    background:rgb(74, 252, 30);
+  }
+  
+ 
+  input[type="text"]:enabled{
+  
+      background:blue;
+  }
